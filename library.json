@@ -1,0 +1,34 @@
+{
+  "name": "spdlog",
+  "version": "1.15.3",
+  "description": "Fast C++ logging library.",
+  "keywords": "logging, log, spdlog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabime/spdlog.git"
+  },
+  "authors": [
+    {
+      "name": "Gabi Melman",
+      "email": "gmelman1@gmail.com",
+      "url": "https://github.com/gabime"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/gabime/spdlog",
+  "dependencies": {},
+  "build": {
+    "includeDir": "include",
+    "srcDir": "",
+    "srcFilter": [
+      "+<*>",
+      "-<src>",
+      "-<bench>",
+      "-<cmake>",
+      "-<example>",
+      "-<logos>",
+      "-<scripts>",
+      "-<tests>"
+    ]
+  }
+}
